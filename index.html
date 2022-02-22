@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: "Sukhumvit Set", sans-serif;
+      padding: 20px;
+    }
+
+    input {
+      font-size: 16px;
+      border: 1px solid #ccc;
+      padding: 6px;
+      border-radius: 3px;
+      width: 300px;
+    }
+
+    button {
+      font-family: "Sukhumvit Set", sans-serif;
+      font-size: 18px;
+      background-color: navy;
+      color: #fff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 3px;
+    }
+
+    td {
+      padding: 6px 10px 6px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>ทดสอบการส่งฟอร์ม</h1>
+  <form name="Form" method="POST" data-netlify="true">
+    <table>
+      <tr>
+        <td>ชื่อ:</td>
+        <td><input id="text" type="text" name="name" required /></td>
+      </tr>
+      <tr>
+        <td>ไฟล์แนบ:</td>
+        <td><input id="file" type="file" name="file" required /></td>
+      </tr>
+    </table>
+    <p><button type="submit">ส่งข้อมูล</button></p>
+  </form>
+</body>
+
+</html>
