@@ -1,0 +1,24 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "minissg",
+    "dev": "minissg --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theyellowmonkey27/form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theyellowmonkey27/form/issues"
+  },
+  "homepage": "https://github.com/theyellowmonkey27/form#readme",
+  "dependencies": {
+    "mini-ssg": "^0.2.2"
+  }
+}
